@@ -1,68 +1,3 @@
-// import React from "react";
-// import { FaTwitter, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa"; // Importing icons
-
-// const Contacts = () => {
-//   return (
-//     <section className="p-10 flex flex-col items-center">
-//       {/* Container for Depth */}
-//       <div className="relative w-full max-w-4xl bg-blue-950 rounded-3xl shadow-2xl p-10">
-//         {/* Outer Layer for Illusion */}
-//         <div className="absolute inset-0 rounded-3xl border border-blue-900 -z-10"></div>
-
-//         {/* Content */}
-//         <h2 className="text-4xl font-extrabold text-center text-gray-100 mb-12">
-//           Contacts
-//         </h2>
-
-//         {/* Social Media Links */}
-//         <div className="flex justify-center space-x-10 mb-8">
-//           <a
-//             href="https://twitter.com/adityaRajSingh007"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="hover:text-blue-400 transition-all duration-300"
-//           >
-//             <FaTwitter className="text-white text-4xl drop-shadow-md hover:scale-110" />
-//           </a>
-//           <a
-//             href="https://github.com/adityarajsingh007"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="hover:text-blue-400 transition-all duration-300"
-//           >
-//             <FaGithub className="text-white text-4xl drop-shadow-md hover:scale-110" />
-//           </a>
-//           <a
-//             href="mailto:adityarajsingh00721@gmail.com"
-//             className="hover:text-blue-400 transition-all duration-300"
-//           >
-//             <FaEnvelope className="text-white text-4xl drop-shadow-md hover:scale-110" />
-//           </a>
-//         </div>
-
-//         {/* Contact Information */}
-//         <div className="grid grid-cols-1 gap-8 text-center md:grid-cols-2">
-//           <div className="flex flex-col items-center">
-//             <div className="w-14 h-14 bg-blue-900 rounded-full flex justify-center items-center shadow-md">
-//               <FaEnvelope className="text-white text-2xl" />
-//             </div>
-//             <p className="mt-4 text-lg text-gray-300">
-//               adityarajsingh00721@gmail.com
-//             </p>
-//           </div>
-//           <div className="flex flex-col items-center">
-//             <div className="w-14 h-14 bg-blue-900 rounded-full flex justify-center items-center shadow-md">
-//               <FaPhone className="text-white text-2xl" />
-//             </div>
-//             <p className="mt-4 text-lg text-gray-300">+91 9179177085</p>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Contacts;
 
 import React from "react";
 import { FaTwitter, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
@@ -87,7 +22,14 @@ const Contacts = () => {
             <div className="flex items-center justify-center w-16 h-16 bg-gray-700 rounded-full shadow-lg border-2 border-yellow-500">
               <FaEnvelope className="text-yellow-400 text-3xl" />
             </div>
-            <p className="text-lg text-gray-300">adityarajsingh00721@gmail.com</p>
+            <p className="text-lg text-gray-300">
+              <a
+                href="mailto:adityarajsingh00721@gmail.com"
+                className="hover:underline hover:text-yellow-400 transition-colors duration-300"
+              >
+                adityarajsingh00721@gmail.com
+              </a>
+            </p>
           </div>
 
           {/* Phone Section */}
@@ -101,22 +43,27 @@ const Contacts = () => {
 
         {/* Social Media Links */}
         <div className="flex justify-center space-x-8 mt-12">
+          {/* Twitter */}
           <a
-            href="https://twitter.com/adityaRajSingh007"
+            href="https://x.com/_adityaraaz"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-yellow-400 transition-all duration-300"
           >
             <FaTwitter className="text-4xl" />
           </a>
+
+          {/* GitHub */}
           <a
-            href="https://github.com/adityarajsingh007"
+            href="https://github.com/adityaraazsingh"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-yellow-400 transition-all duration-300"
           >
             <FaGithub className="text-4xl" />
           </a>
+
+          {/* Email */}
           <a
             href="mailto:adityarajsingh00721@gmail.com"
             className="text-gray-400 hover:text-yellow-400 transition-all duration-300"

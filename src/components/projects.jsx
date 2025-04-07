@@ -156,7 +156,7 @@ const Projects = () => {
 
       {/* Search Input */}
       <div className="flex items-center justify-center mb-12">
-        <div className="flex bg-gray-800 text-gray-400 rounded-lg shadow-lg p-3 w-full max-w-lg">
+        <div className="flex from-black to-transparent text-gray-400 rounded-lg shadow-lg p-3 w-full max-w-lg">
           <input
             type="text"
             value={searchQuery}
@@ -178,7 +178,7 @@ const Projects = () => {
           {displayedRepositories.map((repo) => (
             <div
               key={repo.id}
-              className="p-6 bg-gradient-to-br from-gray-900 to-gray-800 text-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 group"
+              className="p-6 bg-gradient-to-r  from-gray-800 to-transparent text-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 group"
             >
               {/* Project Name */}
               <h3 className="text-2xl font-semibold text-yellow-400 mb-2">
