@@ -1,15 +1,43 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+This is my personal portfolio website, built to showcase my projects, skills, experience, and achievements. It features a visually engaging design, responsive layout, and seamless navigation. The website includes animations for enhanced user experience and a project search function for easy filtering of content. 
 
-Currently, two official plugins are available:
+This portfolio serves as a one-stop platform to highlight my capabilities and accomplishments, making it easier for potential employers or collaborators to understand my professional journey. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The website is deployed online and can be accessed publicly.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- **Homepage**: Introduction about me with clear navigation links.
+- **Projects Section**: Cards showcasing projects with search functionality.
+- **Skills Section**: Visually appealing display of technical skills.
+- **Experience Section**: Details of Academic experience.
+- **Achievements Section**: Highlights of awards and recognitions.
+- **Contact Section**: Links to my email, GitHub, and LinkedIn.
+- **Responsive Design**: Works seamlessly on all devices (desktop, tablet, and mobile).
+- **Animations**: Smooth and subtle hover and scroll effects.
+
+---
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Framework/Library**: React (via Vite for development)
+- **Hosting**: Deployed on Vercel (Choose one based on where you've deployed it)" https://adityarajsingh-three.vercel.app/ "
+- **Tools & Utilities**: 
+  - NPM (Node Package Manager)
+  - AI Tools: GitHub Copilot, ChatGPT, etc., for coding suggestions and debugging
+
+---
+
+## Steps to Run Locally
+To run this project on your local machine:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+
 
 ## Features Checklist
 - [x] **Homepage**
@@ -43,7 +71,7 @@ If you are developing a production application, we recommend using TypeScript an
   - [x] Ensure the website looks good on desktops, tablets, and mobiles.
 
 - [ ] **Animations**
-  - [ ] Add hover effects, scroll animations, or loading effects.
+  - [x] Add hover effects, scroll animations, or loading effects.
   - [ ] Ensure animations enhance user experience and are smooth.
 
 - [x] **Technical Requirements**
@@ -54,9 +82,22 @@ If you are developing a production application, we recommend using TypeScript an
 - [ ] **Write Working Logs**
   - Document how you used AI tools, the challenges faced, and solutions.
 
-- [ ] **Prepare README.md**
+- [x] **Prepare README.md**
   - Include project description, technologies used, and steps to run locally.
 
 - [x] **Submit Deliverables**
   - Upload source code to a Git repository.
   - Provide a live website URL.
+     
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
