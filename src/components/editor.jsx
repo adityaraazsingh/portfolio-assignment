@@ -172,7 +172,7 @@ const DigitalExperience = () => {
   `;
 
   return (
-    <section className="relative py-20 px-8 bg-black text-gray-100">
+    <section className="relative py-20 px-8 text-gray-100">
       {/* Main Container */}
       <div
         className="relative w-[1000px] h-[800px] mx-auto rounded-3xl shadow-lg bg-gray-800 overflow-hidden 

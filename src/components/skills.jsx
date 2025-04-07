@@ -160,7 +160,7 @@ import { SiTailwindcss, SiMongodb } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section className="py-20 px-8 bg-black text-gray-100">
+    <section className="py-20 px-8 text-gray-100">
       {/* Top Divider */}
       {/* <hr className="border-yellow-500 opacity-70 mb-12" /> */}
       

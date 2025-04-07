@@ -118,7 +118,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="py-16 px-8 bg-black">
+    <section className="py-16 px-8">
       <h2 className="text-4xl font-bold text-center text-yellow-400 tracking-wider mb-12">
         Experience
       </h2>

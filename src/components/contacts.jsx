@@ -69,9 +69,9 @@ import { FaTwitter, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Contacts = () => {
   return (
-    <section className="py-20 px-6 bg-black flex justify-center">
+    <section className="py-20 px-6 flex justify-center">
       {/* Contact Card */}
-      <div className="w-full max-w-2xl bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl shadow-2xl p-10 relative">
+      <div className="w-full max-w-2xl bg-gradient-to-br from-gray-900 to-black rounded-3xl shadow-2xl p-10 relative ">
         {/* Card Border Glow */}
         <div className="absolute inset-0 rounded-3xl border-[3px] border-yellow-500 opacity-50 blur-md -z-10"></div>
 
